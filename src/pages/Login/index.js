@@ -1,9 +1,5 @@
 import { Button } from '@material-ui/core';
-import {
-  Container,
-  Titulo,
-  InputContainer
-} from './styles';
+import {Container, Titulo, InputContainer} from './styles';
 import { useHistory } from 'react-router-dom';
 import { useContext } from 'react';
 import { UsuarioContext } from 'common/contexts/Usuario';

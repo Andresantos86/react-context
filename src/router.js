@@ -6,7 +6,9 @@ import CarrinhoProvider from 'common/contexts/Carrinho';
 import Carrinho from 'pages/Carrinho';
 import { PagamentoProvider } from 'common/contexts/Pagamento';
 
+
 export default function Routes() {
+  
   return (
     <Router>
       <Switch>
